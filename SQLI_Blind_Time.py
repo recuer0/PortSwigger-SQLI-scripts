@@ -20,7 +20,6 @@ URL = "https://0a45000c0439509e801f17b100ea00da.web-security-academy.net/"
 result = ""
 p1 = pwn.log.progress("Iniciando ataque SQLI")
 p2 = pwn.log.progress("Resultado")
-error = 0
 characters = string.ascii_lowercase + string.digits
 
 def makeSQLI(pos,i):
