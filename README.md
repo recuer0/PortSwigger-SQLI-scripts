@@ -29,7 +29,7 @@ Los tres scripts comparten la misma estrategia general:
 |Error-based|Error del servidor|Código de respuesta `500` cuando la condición fuerza una división por cero|
 |Time-based|Retraso en la respuesta|La petición tarda más de 2.5s cuando la condición activa `pg_sleep(2.5)`|
 
-![[img/Pasted_image_20260622235626.png]]
+![Demostración](img/Pasted_image_20260622235626.png)
 
 ***
 ## Requisitos
