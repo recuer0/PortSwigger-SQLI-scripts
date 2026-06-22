@@ -16,7 +16,7 @@ def def_handler(sig,frame):
 
 signal.signal(signal.SIGINT,def_handler)
 
-URL = "https://0a8a006004475f6485901214007a0052.web-security-academy.net"
+URL = "https://0a45000c0439509e801f17b100ea00da.web-security-academy.net/"
 result = ""
 p1 = pwn.log.progress("Iniciando ataque SQLI")
 p2 = pwn.log.progress("Resultado")
